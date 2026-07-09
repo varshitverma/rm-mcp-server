@@ -1,0 +1,7 @@
+- python3 -m venv env
+- source ./.venv/bin/activate
+- pip install uv
+- uv init .
+- uv add fastmcp
+- uv run python main.py
+- uv run fastmcp dev inspector main.py
