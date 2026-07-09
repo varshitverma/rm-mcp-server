@@ -3,5 +3,6 @@
 - pip install uv
 - uv init .
 - uv add fastmcp
+- pip freeze > requirements.txt
 - uv run python main.py
 - uv run fastmcp dev inspector main.py
